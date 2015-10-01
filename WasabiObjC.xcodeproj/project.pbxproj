@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F06220E1BBD9C49007661CB /* WasabiObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F06220D1BBD9C49007661CB /* WasabiObjC.h */; };
+		1F06221B1BBD9DEB007661CB /* NSObject+WOCObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F06221A1BBD9DEB007661CB /* NSObject+WOCObjC.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0622081BBD9C49007661CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1F06220E1BBD9C49007661CB /* WasabiObjC.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F06220A1BBD9C49007661CB /* libWasabiObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWasabiObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F06220D1BBD9C49007661CB /* WasabiObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WasabiObjC.h; sourceTree = "<group>"; };
+		1F0622191BBD9DEB007661CB /* NSObject+WOCObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WOCObjC.h"; sourceTree = "<group>"; };
+		1F06221A1BBD9DEB007661CB /* NSObject+WOCObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WOCObjC.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0622071BBD9C49007661CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0622011BBD9C49007661CB = {
+			isa = PBXGroup;
+			children = (
+				1F06220C1BBD9C49007661CB /* WasabiObjC */,
+				1F06220B1BBD9C49007661CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F06220B1BBD9C49007661CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F06220A1BBD9C49007661CB /* libWasabiObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F06220C1BBD9C49007661CB /* WasabiObjC */ = {
+			isa = PBXGroup;
+			children = (
+				1F06220D1BBD9C49007661CB /* WasabiObjC.h */,
+				1F0622191BBD9DEB007661CB /* NSObject+WOCObjC.h */,
+				1F06221A1BBD9DEB007661CB /* NSObject+WOCObjC.m */,
+			);
+			path = WasabiObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0622091BBD9C49007661CB /* WasabiObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0622131BBD9C49007661CB /* Build configuration list for PBXNativeTarget "WasabiObjC" */;
+			buildPhases = (
+				1F0622061BBD9C49007661CB /* Sources */,
+				1F0622071BBD9C49007661CB /* Frameworks */,
+				1F0622081BBD9C49007661CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WasabiObjC;
+			productName = WasabiObjC;
+			productReference = 1F06220A1BBD9C49007661CB /* libWasabiObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0622021BBD9C49007661CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Roth Michaels";
+				TargetAttributes = {
+					1F0622091BBD9C49007661CB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F0622051BBD9C49007661CB /* Build configuration list for PBXProject "WasabiObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F0622011BBD9C49007661CB;
+			productRefGroup = 1F06220B1BBD9C49007661CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0622091BBD9C49007661CB /* WasabiObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0622061BBD9C49007661CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F06221B1BBD9DEB007661CB /* NSObject+WOCObjC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F0622111BBD9C49007661CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F0622121BBD9C49007661CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0622141BBD9C49007661CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F0622151BBD9C49007661CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0622051BBD9C49007661CB /* Build configuration list for PBXProject "WasabiObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0622111BBD9C49007661CB /* Debug */,
+				1F0622121BBD9C49007661CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0622131BBD9C49007661CB /* Build configuration list for PBXNativeTarget "WasabiObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0622141BBD9C49007661CB /* Debug */,
+				1F0622151BBD9C49007661CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0622021BBD9C49007661CB /* Project object */;
+}
